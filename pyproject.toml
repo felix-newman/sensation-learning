@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sensation-learning"
+version = "0.1.0"
+description = ""
+authors = ["Felix Neumann <felix.maximilian.neumann@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.0"
+matplotlib = "^3.10.0"
+notebook = "^7.3.2"
+scikit-learn = "^1.6.0"
+ipympl = "^0.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
